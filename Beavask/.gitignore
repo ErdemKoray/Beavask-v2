@@ -1,0 +1,47 @@
+########################################
+# .NET / Visual Studio
+########################################
+**/[Bb]in/
+**/[Oo]bj/
+**/.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.dbmdl
+*.pdb
+*.log
+*.cache
+*.tmp
+
+# Rider
+.idea/
+
+# Test sonuçları
+TestResult*/ 
+*.trx
+
+# Entity Framework
+Migrations/
+
+########################################
+# Node / Frontend (React, Vite vs.)
+########################################
+node_modules/
+dist/
+build/
+*.log
+.env
+.env.*
+
+# Vite / React / Webpack cache
+.vite/
+.cache/
+
+########################################
+# OS / Diğer
+########################################
+.DS_Store
+Thumbs.db
+*.bak
+*.orig

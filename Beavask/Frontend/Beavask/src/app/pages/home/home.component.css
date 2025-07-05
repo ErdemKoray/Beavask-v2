@@ -1,0 +1,24 @@
+.bv-container {
+  display: grid;
+  grid-template-rows: auto 1fr; /* Navbar üstte, main kalan alanı kaplasın */
+}
+
+/* width */
+.bv-scrollbar-custom::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.bv-scrollbar-custom::-webkit-scrollbar-track {
+  background:none; 
+}
+ 
+/* Handle */
+.bv-scrollbar-custom::-webkit-scrollbar-thumb {
+  background: #695e3e; 
+}
+
+/* Handle on hover */
+.bv-scrollbar-custom::-webkit-scrollbar-thumb:hover {
+  background: #5c5238; 
+}

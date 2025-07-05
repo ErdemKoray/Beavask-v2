@@ -1,6 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 *{
-    margin: 0;
+
+      font-family: "Inter", sans-serif;
+
+}
+
+:root {
+  /* Ana Tema Rengi */
+  --main: #e6dbba;
+
+  /* Text Serileri (Tema renklerine göre açılan tonlar) */
+  --text: #3a2f1e;
+  --text-h: #2b2317;
+
+  --text1: #5e502d;
+  --text1-h: #4b4124;
+  --text1-2: #7a6b3c;
+  --text1-3: #978a5d;
+  --text1-4: #bcb18a;
+  --text1-5: #e5e0c6;
+
+  --text2: #6e3c14;
+  --text2-h: #522d0f;
+  --text2-2: #a0562b;
+  --text2-3: #c47d54;
+  --text2-4: #e1ac8b;
+  --text2-5: #f4dbcc;
+
+  --text: #35321f;
+  --text-h: #4a4730;
+  --text1: #4a4730;
+  --text1-h: #58553a;
+  --text2: #6e6949;
+  --text2-h: #857f5c;
+  --text3: #979370;
+  --text3-h: #c3c0a2;
+  --text4: #f8f8f1;
+  --text4-h: #efefdf;
+
+  /* Scrollbar */
+  --scrollbar: #b3a984;
+  --scrollbar-h: #958c6a;
+
+  /* Input alanı */
+  --input: #fbf9f3;
+  --input-h: #f0ebdc;
+  --input-border: #d2c7a3;
+  --input-border-h: #b1a683;
+
+  /* Background */
+  --background-w: #ffffff;
+  --background-p: #f9f6ef;
+  --background-s: #f5f1e3;
+  --background-card: #ede7d2;
+  --background-hover: #e3ddc2;
+
+  --background-dark: #cbbf9e;        
+  --background-darker: #a79974;     
+  --background-overlay: rgba(0,0,0,0.3); 
+  --background-footer: #7a7155;      
+  /* Header sabitleri (temaya göre varyantlar eklenecekse eklenir) */
+  --header: #6b4f28;
+  --header-h: #523e21;
+  --header2: #8c6f39;
+  --header2-h: #6b542c;
+  --header3: #b59c6b;
+  --header3-h: #927f56;
+}
+
+.dark {
+  /* Ana Tema Rengi (daha zeytin/yeşil tonlar) */
+  --main: #2f5249;
+
+  /* Text Serileri */
+  --text: #e8e6db;
+  --text-h: #fafaf3;
+
+  --text1: #d7d3bb;
+  --text1-h: #cbc7af;
+  --text1-2: #b8b59e;
+  --text1-3: #969377;
+  --text1-4: #6d6c53;
+  --text1-5: #4e4d3a;
+
+  --text: #e6edeb;
+  --text-h: #c8d5d1;
+
+  --text1: #b2c1bd;
+  --text1-h: #9aafab;
+  --text2: #8fa39f;
+  --text2-h: #738985;
+  --text3: #5b726e;
+  --text3-h: #435853;
+  --text4: #2f5249;
+  --text4-h: #254139;
+
+  /* Scrollbar */
+  --scrollbar: #4a5c51;
+  --scrollbar-h: #617c6c;
+
+  /* Input alanı */
+  --input: #2b3c35;
+  --input-h: #374c43;
+  --input-border: #516a5e;
+  --input-border-h: #678675;
+
+  /* Background */
+  --background-w: #1e1e1c;
+  --background-p: #242621;
+  --background-s: #486b62;
+  --background-card: #839792;
+  --background-hover: #5b8076;
+
+  --background-dark: #2f5249;
+  --background-darker: #1f3b32;
+  --background-overlay: rgba(0,0,0,0.5);
+  --background-footer: #1a2a25;
+
+  /* Header sabitleri */
+  --header: #254634;
+  --header-h: #365d47;
+  --header2: #599378;
+  --header2-h: #44715e;
+  --header3: #7ab89c;
+  --header3-h: #5e9980;
+}
+
+
+@layer base {
+  body {
+    background-color: var(--main);
+    color: var(--color-text);
+    @apply transition-colors;  
+      margin: 0;
     padding: 0;
     left: 0;
     top: 0;
+  }
 }

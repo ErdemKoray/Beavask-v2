@@ -1,0 +1,12 @@
+.bv-bg {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.48) 0%,
+    rgba(255, 255, 255, 0.32) 56%,
+    rgba(255, 255, 255, 0.45) 100%
+  ) !important;
+}
+
+.bv-logo h1{
+ font-family: "Cabin", sans-serif!important;
+}

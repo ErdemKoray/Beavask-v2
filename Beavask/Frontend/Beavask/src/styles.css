@@ -129,6 +129,60 @@
   --header3: #7ab89c;
   --header3-h: #5e9980;
 }
+.dark-black {
+  /* Ana Tema Rengi */
+  --main: #111111;
+
+  /* Text Serileri (beyaza yakından koyuya) */
+  --text: #f2f2f2;
+  --text-h: #ffffff;
+
+  --text1: #dddddd;
+  --text1-h: #cccccc;
+  --text1-2: #bbbbbb;
+  --text1-3: #999999;
+  --text1-4: #777777;
+  --text1-5: #555555;
+
+  --text2: #aaaaaa;
+  --text2-h: #888888;
+  --text3: #777777;
+  --text3-h: #5e5e5e;
+  --text4: #4a4a4a;
+  --text4-h: #363636;
+
+  /* Scrollbar */
+  --scrollbar: #2e2e2e;
+  --scrollbar-h: #444444;
+
+  /* Input alanı */
+  --input: #1c1c1c;
+  --input-h: #2a2a2a;
+  --input-border: #444444;
+  --input-border-h: #666666;
+
+  /* Background */
+  --background-w: #121212;
+  --background-p: #181818;
+  --background-s: #202020;
+  --background-card: #1e1e1e;
+  --background-hover: #2b2b2b;
+
+  --background-dark: #0f0f0f;
+  --background-darker: #000000;
+  --background-overlay: rgba(0,0,0,0.65);
+  --background-footer: #1a1a1a;
+
+  /* Header sabitleri (siyaha uygun gri tonlar) */
+  --header: #2b2b2b;
+  --header-h: #3a3a3a;
+
+  --header2: #444444;
+  --header2-h: #5a5a5a;
+
+  --header3: #666666;
+  --header3-h: #808080;
+}
 
 
 @layer base {
